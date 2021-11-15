@@ -1,0 +1,204 @@
+body{
+    background: hsl(210, 46%, 95%) ;
+}
+.container{
+    width: 67rem;
+    height: 29.9rem;
+    display: grid;
+    /* justify-content: space-evenly; */
+    /* align-content: space-around; */
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    margin: auto;
+    margin-top: 4.5rem;
+    border: transparent;
+    grid-gap: 22px ;
+}
+#Daniel{
+    background-color: hsl(263, 55%, 52%);
+    width: 25rem;
+    height: 13rem;
+    display: grid;
+    grid-column: 1;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    padding: 25px;
+    margin: -2px 0px 0px -2px;
+}
+#imgQuote{
+    position: absolute;
+    width: 5.2rem;
+    height: 5.7rem;
+    margin: -25px 0px 0px 261px;
+    border-radius: 0px;
+    border-radius: 7px;
+    z-index: 0;
+}
+#Walters{
+    background-color: hsl(217, 19%, 35%);
+    width: 13.4rem;
+    height: 13rem;
+    display: grid;
+    grid-column: 2;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    padding: 25px;
+    margin: -3px 0px 0px 0px;
+}
+#Harmon{
+    background-color: white;
+    width: 12rem;
+    height: 11rem;
+    display: grid;
+    grid-row: 2 ;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    padding: 25px;
+    margin: -2px 0px 0px 0px;
+    box-shadow: 8px 3px 20px 1px #c1c1b869 ;
+}
+#Patrick{
+    background-color: hsl(219, 29%, 14%);
+    width: 27rem;
+    height: 11rem;
+    display: grid;
+    grid-column: 2;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    padding: 25px;
+    margin: -1px 0px 0px -217px;
+    box-shadow: 1px 7px 10px 6px  #c1c1b869 ;
+    
+}
+#Kira{
+    background-color:white ;
+    width: 13rem;
+    height: 28.7rem;
+    display: grid;
+    grid-column: 3;
+    border:  2px solid transparent;
+    border-radius: 7px;
+    padding: 25px;
+    margin: -284px 0px 0px -2px;
+    box-shadow:5px 10px 10px 0px #c1c1b869 ;
+}
+h1{
+    color: hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: -27px 0px 0px 45px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+sub{
+    color: hsla(210, 46%, 95% ,50%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: -11px 0px 0px 45px;
+    font-size: 12px;
+    
+}
+span{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: 16px 0px 0px 0px;
+    font-weight: 400;
+    z-index: 1;
+}
+img{
+    border-radius: 50%;
+    width: 2rem;
+    height: 1.7rem;
+    margin: 0px 0px 0px 0px;
+}
+p{
+    color: hsla(210, 46%, 95% ,70%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+}
+.attribution{
+    margin-top: 5rem;
+    text-align: center;
+}
+.attribution a{
+    color: hsl(219, 29%, 14%);
+}
+/* media Query for responsiveness */
+@media  only screen and (max-width: 600px ){
+    .container{
+
+       display: flex;
+       flex-direction: column;
+    }
+    #Daniel{
+        background-color: hsl(263, 55%, 52%);
+        width: 15rem;
+        height: 20rem;
+        display: grid;
+        grid-column: 1;
+        border: 2px solid transparent;
+        border-radius: 7px;
+        padding: 25px;
+        margin:-50px 0px 0px -2px;
+    }
+    #imgQuote{
+        position: absolute;
+        width: 5.2rem;
+        height: 5.7rem;
+        margin: -18px 0px 0px 157px;
+        border-radius: 0px;
+        border-radius: 7px;
+        z-index: 0;
+    }
+    #Walters{
+        background-color: hsl(217, 19%, 35%);
+        width: 15.4rem;
+        height: 13rem;
+        display: grid;
+        grid-column: 2;
+        border: 2px solid transparent;
+        border-radius: 7px;
+        padding: 25px;
+        margin: -3px 0px 0px 0px;
+    }
+    #Harmon{
+        background-color: white;
+        width: 15rem;
+        height: 11rem;
+        display: grid;
+        grid-row: 2 ;
+        border: 2px solid transparent;
+        border-radius: 7px;
+        padding: 25px;
+        margin: -2px 0px 0px 0px;
+        box-shadow: 8px 3px 20px 1px #c1c1b869 ;
+    }
+    #Patrick{
+        background-color: hsl(219, 29%, 14%);
+        width: 15rem;
+        height: 18rem;
+        display: grid;
+        grid-column: 2;
+        border: 2px solid transparent;
+        border-radius: 7px;
+        padding: 17px;
+        margin: 2px 0px 0px 0px;
+        box-shadow: 1px 7px 10px 6px  #c1c1b869 ;
+        
+    }
+    #Kira{
+        background-color:white ;
+        width: 15rem;
+        height: 22.7rem;
+        display: grid;
+        grid-column: 3;
+        border:  2px solid transparent;
+        border-radius: 7px;
+        padding: 25px;
+        margin: 0px 0px 0px 0px;
+        box-shadow:5px 10px 10px 0px #c1c1b869 ;
+    }
+    .attribution{
+        margin-left: 20rem;
+        margin-top: 75rem; 
+        margin-right: -20rem;
+        
+    }
+}

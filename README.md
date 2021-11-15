@@ -12,7 +12,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/CoolTaher/GridTestimonial](https://your-solution-url.com)
+- Solution URL: [https://github.com/CoolTaher/GridTestimonial](https://github.com/CoolTaher/GridTestimonial)
 - Live Site URL: [](https://your-live-site-url.com)
 
 ## My process

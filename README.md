@@ -12,8 +12,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://cooltaher.github.io/GridLayoutTestimonal/](https://your-solution-url.com)
-- Live Site URL: [https://cooltaher.github.io/GridLayoutTestimonal/](https://your-live-site-url.com)
+- Solution URL: [https://github.com/CoolTaher/GridTestimonial](https://your-solution-url.com)
+- Live Site URL: [](https://your-live-site-url.com)
 
 ## My process
 
